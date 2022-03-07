@@ -1,0 +1,23 @@
+/* ========= FONT & TYPO =========== */
+
+$font-sizes: (
+  "smallest": 0.8em,
+  "small": 16px,
+  "subtitle": 1.2em,
+  "normal": 1.5em,
+  "medium": 1.7em,
+  "big": 2em,
+  "biggest": 3em,
+);
+
+$body-font: "Dosis", sans-serif;
+$title-font: "Titillium Web", sans-serif;
+
+/* ======= FONT WEIGHT ======= */
+
+$font-weights: (
+  "small": 200,
+  "regular": 300,
+  "medium": 600,
+  "bold": 1000,
+);

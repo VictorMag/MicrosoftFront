@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- =================== GOOGLE FONTS ================== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@600&family=Titillium+Web:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- ======== CSS =========== -->
+    <link rel="stylesheet" href="/css/styles.css" />
+    <title>Pedidos</title>
+  </head>
+  <body>
+    <main class="main">
+      <!-- ========== NAVBAR ============ -->
+      <header>
+        <a href="/" class="nav__logo">Pasteleria</a>
+        <nav class="nav container">
+          <div class="nav__menu">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="/" class="nav__link active-link">Inicio</a>
+              </li>
+              <li class="nav__item">
+                <a href="pedidos.html" class="nav__link">Pedidos</a>
+              </li>
+              <li class="nav__item">
+                <a href="/pastelero/pastelero.html" class="nav__link"
+                  >Pastelero</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <a href="" class="cta"><button>Contact</button></a>
+      </header>
+
+      <!-- ========== HOME =========== -->
+      <section class="homeSection">
+        <div class="home">
+          <div class="home__text">Crea Tu Pastel</div>
+          <div class="home__img">
+            <img src="/img/cake.jpg" alt="" class="imgCake" />
+          </div>
+        </div>
+      </section>
+
+      <!-- ========= TIPO PASTEL ========= -->
+      <section class="tipoPastel">
+        <div class="pastel">Selecciona el tipo de pastel</div>
+        <div class="pastel__cheesecake">
+          Pastel Cheesecake
+          <img src="/img/cheesecake.jpg" alt="" />
+          <div class="pastel__text">
+            Originario de Grecia y después introducido a Estados unidos, el
+            cheesecake hoy en día es uno de los pasteles más populares, e
+            incluso hay restaurantes dedicados a venderlos. Hay diversas mezclas
+            y preparaciones, pero el principal elemento siempre ha sido el
+            queso: crema, ricotta o neufchatel.
+          </div>
+        </div>
+
+        <div class="pastel__tiramisu">
+          Pastel Tiramisu
+          <img src="/img/tiramisu.jpg" alt="" />
+          <div class="pastel__text">
+            El tiramisú nació en Italia. Lo elaboran con un bizcocho de soletas
+            humedecidas en café y una ligera crema a base de huevos, azúcar y
+            queso mascarpone. La receta varía dependiendo del lugar, por
+            ejemplo, en algunos restaurantes se le agrega vino Marsala o algún
+            otro tipo de licor. No se sabe bien en qué parte de Italia nació y
+            hay muchas teorías de su origen, lo que sí podemos decir es que su
+            sabor y textura aterciopelada hacen de este postre uno de los
+            favoritos a nivel mundial.
+          </div>
+        </div>
+
+        <div class="pastel__leches">
+          Pastel de Tres Leches
+          <img src="/img/leches.jpg" alt="" />
+          <div class="pastel__text">
+            El pastel de tres leches es muy popular en Latinoamérica y es
+            elaborado en diferentes países como: Nicaragua, México, Venezuela,
+            Colombia y Perú. Consiste en un bizcocho bañado en -como su nombre
+            lo dice- tres leches: leche condensada, leche evaporada y crema de
+            leche o lechera- de topping suele usarse el merengue y en algunos
+            países se le pone cerezas o frutos rojos.
+          </div>
+        </div>
+      </section>
+
+      <!-- ======== DECORATION ======== -->
+      <section class="decoracionSection">
+        <div class="decoracion">
+          Seleciona una decoracion
+          <form action="/">
+            <input
+              type="radio"
+              id="pastel1"
+              name="pastel1"
+              value="Cumpleanos"
+            />
+            <label for="vehicle1"> Cumpleaños</label><br />
+            <input type="radio" id="pastel2" name="pastel2" value="Edad" />
+            <label for="vehicle2"> Edad</label><br />
+            <input type="radio" id="pastel3" name="pastel3" value="Animales" />
+            <label for="vehicle3"> Animales</label><br /><br />
+            <input type="submit" value="Enviar" />
+          </form>
+        </div>
+      </section>
+
+      <!-- ======== MAIN ======= -->
+    </main>
+  </body>
+</html>

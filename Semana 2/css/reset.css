@@ -1,0 +1,14 @@
+* { -webkit-box-sizing: border-box; box-sizing: border-box; padding: 0; margin: 0; text-decoration: none; list-style: none; }
+
+html { scroll-behavior: smooth; }
+
+ul { list-style: none; }
+
+li { list-style: none; }
+
+a { text-decoration: none; }
+
+img { max-width: 100%; height: auto; }
+
+.main { overflow-x: hidden; }
+/*# sourceMappingURL=reset.css.map */

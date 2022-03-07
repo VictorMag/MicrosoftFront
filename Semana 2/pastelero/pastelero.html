@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- =================== GOOGLE FONTS ================== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@600&family=Titillium+Web:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- ======== CSS =========== -->
+    <link rel="stylesheet" href="/css/styles.css" />
+    <title>Pedidos</title>
+  </head>
+  <body>
+    <main class="main">
+      <!-- ========== NAVBAR ============ -->
+      <header>
+        <a href="/" class="nav__logo">Pasteleria</a>
+        <nav class="nav container">
+          <div class="nav__menu">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="/" class="nav__link active-link">Inicio</a>
+              </li>
+              <li class="nav__item">
+                <a href="/pasteleria/pedidos.html" class="nav__link">Pedidos</a>
+              </li>
+              <li class="nav__item">
+                <a href="pastelero.html" class="nav__link">Pastelero</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <a href="" class="cta"><button>Contact</button></a>
+      </header>
+      <!-- ========== HOME =========== -->
+      <section class="homeSection">
+        <div class="home">
+          <div class="home__text">Inventario</div>
+          <div class="home__img">
+            <img src="/img/cake.jpg" alt="" class="imgCake" />
+          </div>
+        </div>
+      </section>
+
+      <!-- ========= PEDIDOS ========= -->
+      <section class="pedidosPendientes">
+        <div class="pedidos">
+          <div class="pedidos__pendientes">
+            Pedidos Pendientes
+            <table style="width: 100%">
+              <tr>
+                <th>Cliente</th>
+                <th>Telefono</th>
+                <th>Tipo de Pastel</th>
+                <th>Decoracion</th>
+              </tr>
+              <tr>
+                <td>Alfredo Rios</td>
+                <td>55-5243-4436</td>
+                <td>Cheesecake</td>
+                <td>Cumpleaños</td>
+              </tr>
+            </table>
+          </div>
+
+          <div class="pedidos__disponibles">
+            Pedidos Disponibles
+            <table style="width: 100%">
+              <tr>
+                <th>Tipo</th>
+                <th>Ingredientes</th>
+                <th>Sabores</th>
+                <th>Disponibles</th>
+              </tr>
+              <tr>
+                <td>Cumpleaños</td>
+                <td>Azucar, leche, mantequilla, huevos</td>
+                <td>Fresa</td>
+                <td>3</td>
+              </tr>
+            </table>
+          </div>
+
+          <div class="pedidos__entregados">
+            Pedidos Entregados
+            <table style="width: 100%">
+              <tr>
+                <th>Cliente</th>
+                <th>Telefono</th>
+                <th>Tipo Pastel</th>
+                <th>Decoracion</th>
+                <th>Fecha de Entrega</th>
+                <th>Total</th>
+              </tr>
+              <tr>
+                <td>Alfredo Rios</td>
+                <td>55-4565-7764</td>
+                <td>Cheesecake</td>
+                <td>Cumpleaños</td>
+                <td>2 junio 2021</td>
+                <td>200$</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </section>
+      <!-- ======== MAIN ======= -->
+    </main>
+  </body>
+</html>

@@ -1,0 +1,79 @@
+@import "./reset";
+@import "./variables";
+
+body {
+  background-color: #24252a;
+  font-family: $body-font;
+  color: #fff;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 10px 2%;
+}
+
+.nav__logo {
+  color: #fff;
+}
+
+.nav {
+  font-weight: weight(medium);
+
+  &__link {
+    color: #fff;
+  }
+
+  &__item {
+    display: inline-block;
+    padding: 0 20px;
+    a {
+      transition: all 0.3s ease 0s;
+    }
+  }
+}
+
+button {
+  padding: 9px 25px;
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  color: #fff;
+}
+
+button:hover {
+  background-color: rgba (0, 136, 169, 0.8);
+}
+
+// ========== HOME ============
+
+.homeSection {
+  height: 90vh;
+}
+.home {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas: "home__text home__img";
+
+  &__text {
+    grid-area: home__text;
+
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding-top: 40%;
+  }
+  &__img {
+    grid-area: home__img;
+  }
+}
+
+.imgCake {
+  height: 30vh;
+}
